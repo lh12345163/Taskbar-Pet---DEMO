@@ -1,19 +1,26 @@
-# Taskbar-Pet---DEMO
+# Desktop Cat
 
-🐾 Desktop Cat – Your Virtual Pet on Your Screen
-Transform your workspace into a less boring environment with this super cute and smoothly interactive virtual cat right on your desktop!
+Small PyQt5 script that loads GIF frames from the `gif/` folder and shows a little animated cat in the bottom corner of the screen. It respects the Windows work area (so it will sit above the taskbar when the taskbar is visible, or at the bottom of the screen when the taskbar is hidden).
 
-✨ Key Features:
-🐁 Chase Mouse: Automatically moves and chases the mouse cursor.
+Usage
 
-🎮 Rhythm Minigame: Click on the cat and press the Spacebar to increase your happiness points.
+1. Install dependencies:
 
-🖐️ Physical Interaction: Grab, drag, throw, or drop the cat with lively animations.
+```bash
+pip install -r requirements.txt
+```
 
-⚡ Compact & Convenient: Right-click for quick control, runs smoothly in the system tray.
+2. Run:
 
-🐱 Desktop Cat – Your little friend to relieve stress every day!
+```bash
+python Cat.py
+```
 
-I made this virtual cat when I was bored; this is my first creation, and I hope you like it.
+Controls
 
-Thank you for downloading and supporting!
+- Click the cat to make it jump toward the click.
+
+Notes
+
+- GIF files are loaded from the `gif/` folder next to `Cat.py`.
+- Playback speed has been reduced slightly for smoother visuals.
